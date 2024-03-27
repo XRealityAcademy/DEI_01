@@ -1,0 +1,8 @@
+C:/Users/domwu/Unity/DEI Demo/DEI_01/.utmp/Debug/5f415bj6/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/domwu/Unity/DEI Demo/DEI_01/.utmp/Debug/5f415bj6/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/domwu/Unity/DEI Demo/DEI_01/.utmp/Debug/5f415bj6/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/domwu/Unity/DEI Demo/DEI_01/.utmp/Debug/5f415bj6/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/domwu/Unity/DEI Demo/DEI_01/.utmp/Debug/5f415bj6/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+C:/Users/domwu/Unity/DEI Demo/DEI_01/.utmp/Debug/5f415bj6/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/domwu/Unity/DEI Demo/DEI_01/.utmp/Debug/5f415bj6/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/domwu/Unity/DEI Demo/DEI_01/.utmp/Debug/5f415bj6/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
