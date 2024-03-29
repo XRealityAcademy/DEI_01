@@ -7,14 +7,20 @@ public class Portal : MonoBehaviour
     public GameObject happyBall;
     public GameObject sadBall;
     public GameObject madBall;
+    public Animator anim;
 
     bool isHappyBall;
     bool isSadBall;
     bool isMadBall;
+    void Awake()
+    {
+     anim = GetComponent<Animator>();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
+
         isHappyBall = false;
         isSadBall = false;
         isMadBall = false;
@@ -35,6 +41,11 @@ public class Portal : MonoBehaviour
              happyBall.SetActive(true);
              sadBall.SetActive(false);
              madBall.SetActive(false);
+
+            //  anim.SetBool("isHappy", true);
+            //  anim.SetBool("isSad", false);
+            //  anim.SetBool("isMad", false);
+            anim.SetTrigger("Happy");
              
         }
 
@@ -43,6 +54,10 @@ public class Portal : MonoBehaviour
              happyBall.SetActive(false);
              sadBall.SetActive(true);
              madBall.SetActive(false);
+            //  anim.SetBool("isSad", true);
+            //  anim.SetBool("isHappy", false);
+            //  anim.SetBool("isMad", false);
+            anim.SetTrigger("Sad");
         }
 
         if (other.gameObject.CompareTag("MadBall"))
@@ -50,6 +65,10 @@ public class Portal : MonoBehaviour
              happyBall.SetActive(false);
              sadBall.SetActive(false);
              madBall.SetActive(true);
+            //  anim.SetBool("isMad", true);
+            //  anim.SetBool("isSad", false);
+            //  anim.SetBool("isHappy", false);
+            anim.SetTrigger("Mad");
         }
     }
 }
