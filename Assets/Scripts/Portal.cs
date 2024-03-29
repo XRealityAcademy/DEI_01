@@ -14,17 +14,16 @@ public class Portal : MonoBehaviour
     bool isMadBall;
     void Awake()
     {
-     anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-
         isHappyBall = false;
         isSadBall = false;
         isMadBall = false;
-        
+        anim.Play("isIdle");
     }
 
     // Update is called once per frame
@@ -33,7 +32,7 @@ public class Portal : MonoBehaviour
         
     }
 
-        private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         // Check if the GameObject that collided with this one has the tag "Player"
         if (other.gameObject.CompareTag("HappyBall"))
@@ -41,12 +40,10 @@ public class Portal : MonoBehaviour
              happyBall.SetActive(true);
              sadBall.SetActive(false);
              madBall.SetActive(false);
-
             //  anim.SetBool("isHappy", true);
             //  anim.SetBool("isSad", false);
             //  anim.SetBool("isMad", false);
-            anim.SetTrigger("Happy");
-             
+            anim.Play("Happy");
         }
 
         if (other.gameObject.CompareTag("SadBall"))
@@ -57,7 +54,7 @@ public class Portal : MonoBehaviour
             //  anim.SetBool("isSad", true);
             //  anim.SetBool("isHappy", false);
             //  anim.SetBool("isMad", false);
-            anim.SetTrigger("Sad");
+            anim.Play("Sad");
         }
 
         if (other.gameObject.CompareTag("MadBall"))
@@ -68,7 +65,7 @@ public class Portal : MonoBehaviour
             //  anim.SetBool("isMad", true);
             //  anim.SetBool("isSad", false);
             //  anim.SetBool("isHappy", false);
-            anim.SetTrigger("Mad");
+            anim.Play("Mad");
         }
     }
 }
