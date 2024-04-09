@@ -23,7 +23,7 @@ public class Portal : MonoBehaviour
         isHappyBall = false;
         isSadBall = false;
         isMadBall = false;
-        anim.Play("isIdle");
+        anim.Play("Idle");
     }
 
     // Update is called once per frame

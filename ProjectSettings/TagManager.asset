@@ -7,6 +7,8 @@ TagManager:
   - HappyBall
   - SadBall
   - MadBall
+  - BlackGirl
+  - WhiteGuy
   layers:
   - Default
   - TransparentFX
