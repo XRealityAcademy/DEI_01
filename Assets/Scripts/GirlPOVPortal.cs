@@ -28,35 +28,29 @@ public class GirlPOVPortal : MonoBehaviour
         // Check if the GameObject that collided with this one has the tag "Player"
         if (other.gameObject.CompareTag("HappyBall"))
         {
-             happyBall.SetActive(true);
-             sadBall.SetActive(false);
-             madBall.SetActive(false);
+
             //  anim.SetBool("isHappy", true);
             //  anim.SetBool("isSad", false);
             //  anim.SetBool("isMad", false);
-            guyAnim.Play("Idle");
+            guyAnim.Play("Happy");
         }
 
         if (other.gameObject.CompareTag("SadBall"))
         {
-             happyBall.SetActive(false);
-             sadBall.SetActive(true);
-             madBall.SetActive(false);
+
             //  anim.SetBool("isSad", true);
             //  anim.SetBool("isHappy", false);
             //  anim.SetBool("isMad", false);
-             guyAnim.Play("Idle");
+             guyAnim.Play("Sad");
         }
 
         if (other.gameObject.CompareTag("MadBall"))
         {
-             happyBall.SetActive(false);
-             sadBall.SetActive(false);
-             madBall.SetActive(true);
+
             //  anim.SetBool("isMad", true);
             //  anim.SetBool("isSad", false);
             //  anim.SetBool("isHappy", false);
-             guyAnim.Play("Idle");
+             guyAnim.Play("Mad");
         }
     }
 

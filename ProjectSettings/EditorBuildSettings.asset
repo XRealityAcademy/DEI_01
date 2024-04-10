@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GirlPOV.unity
     guid: 4b983380c2a0d3d4eb445c4788af0515
+  - enabled: 1
+    path: Assets/Scenes/GuyPOV.unity
+    guid: 705bad5ca0d133040a6c561ced479844
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ac14f5b3dbcab8f469f94b045e0df3ca, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f043126607937b44184879d26886dbf4, type: 2}
