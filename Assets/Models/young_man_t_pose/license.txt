@@ -1,0 +1,11 @@
+Model Information:
+* title:	Young Man T Pose
+* source:	https://sketchfab.com/3d-models/young-man-t-pose-926eede26daf42ddb2fb9ee7314ee27f
+* author:	iconic (https://sketchfab.com/iconic)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Young Man T Pose" (https://sketchfab.com/3d-models/young-man-t-pose-926eede26daf42ddb2fb9ee7314ee27f) by iconic (https://sketchfab.com/iconic) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
