@@ -2264,7 +2264,7 @@ GameObject:
   - component: {fileID: 543608618}
   - component: {fileID: 543608617}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: TextVoiceOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3222,16 +3222,15 @@ MonoBehaviour:
   storyText: {fileID: 405129054}
   background: {fileID: 2465433}
   chooseUI: {fileID: 650608393}
-  sentences: []
   sentenceDisplayTime: 5
   timeBetweenSentences: 2
   backgroundSource: {fileID: 1484326763}
   dialogSource: {fileID: 509598507}
-  backgroundClip: {fileID: 8300000, guid: adde8e2f1d2b93047b866eeac15261e5, type: 3}
   dialogClip:
   - {fileID: 8300000, guid: cdb35987860382848ba87a64a645f8b4, type: 3}
   - {fileID: 8300000, guid: 07d7442a2c2e2d848be263554b9e0ded, type: 3}
   - {fileID: 8300000, guid: 93fda3d5172fe974c97abf33d5f0ab14, type: 3}
+  - {fileID: 8300000, guid: a59c9140fe4468541b179d50bb72259f, type: 3}
 --- !u!4 &673214743
 Transform:
   m_ObjectHideFlags: 0
@@ -4567,7 +4566,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Drag a model to the circle to choose a POVw
+  m_text: Drag a model into the circle to select a Perspective.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc41d5815b9a5bb48be4c84a746c4ff6, type: 2}
   m_sharedMaterial: {fileID: 7032093815205813286, guid: fc41d5815b9a5bb48be4c84a746c4ff6, type: 2}
