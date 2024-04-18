@@ -30,15 +30,7 @@ public class GirlManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if "HappyBall" is selected, play the Dialog
-             // Girl: "My grandparents were originally from Kenya, but I was born and raised here. Why do you ask?"
-            //  Boy: "I traveled to Africa last summer, and Kenya was my favorite country. The safaris are amazing. You remind me of the people I met in Kenya, so I was curious if you had roots there."
-       //if "SadBall" is selected, play the Dialog
-             // Girl: "I was born here, not in Africa."
-            //  Boy: "Sorry! I took a trip to Africa, and something about you reminds me of the people I met there."
-       //if "MadBall" is selected, play the Dialog
-             // Girl: "Not every black person is from Africa. Please, let's respect each other's privacy."
-            //  Boy: "I am sorry. It wasn't my intention. Never mind. You are too sensitive."
+
     
 
     }
